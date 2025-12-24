@@ -1,0 +1,10 @@
+export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+
+
+export const USER_ENDPOINTS = {
+  CREATE_RESIDENTIAL: `${API_BASE_URL}/admin/residential`,
+    ADMIN_USER:`${API_BASE_URL}/admin/login` 
+};
+
+
+export default USER_ENDPOINTS;
